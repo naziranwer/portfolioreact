@@ -30,7 +30,13 @@ body {
 .text-accent {
     color: #7477FF;
 }
-
+#accents {
+    color: #0F172A;
+}
+.custom-bg-color{
+    background-color: #4c8c72;
+    color: white;
+}
 
 nav li a {
     @apply px-4 py-5 text-lg;

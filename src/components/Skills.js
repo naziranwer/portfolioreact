@@ -8,6 +8,7 @@ import {
   FaGraphQL,
   FaHtml5,
   FaCode,
+  FaCodeBranch
 } from "react-icons/fa";
 
 const Skill = () => {
@@ -21,32 +22,37 @@ const Skill = () => {
           {/* Skill cards */}
           <div className="text-center">
             <FaHtml5 className="mx-auto mb-2 text-5xl text-orange-500" />
-            <p className="text-lg font-semibold text-gray-700">HTML5</p>
+            <p className="text-lg font-semibold text-white">HTML5</p>
           </div>
           <div className="text-center">
             <FaCss3 className="mx-auto mb-2 text-5xl text-blue-700" />
-            <p className="text-lg font-semibold text-gray-700">CSS3</p>
+            <p className="text-lg font-semibold text-white">CSS3</p>
           </div>
           <div className="text-center">
             <FaCode className="mx-auto mb-2 text-5xl text-blue-700" />
-            <p className="text-lg font-semibold text-gray-700">JavaScript</p>
+            <p className="text-lg font-semibold text-white">JavaScript</p>
           </div>
           <div className="text-center">
             <FaReact className="mx-auto mb-2 text-5xl text-pink-500" />
-            <p className="text-lg font-semibold text-gray-700">React JS</p>
+            <p className="text-lg font-semibold text-white">React JS</p>
           </div>
           <div className="text-center">
             <FaNodeJs className="mx-auto mb-2 text-5xl text-green-400" />
-            <p className="text-lg font-semibold text-gray-700">Node.js</p>
+            <p className="text-lg font-semibold text-white">Node.js</p>
           </div>
           <div className="text-center">
             <FaServer className="mx-auto mb-2 text-5xl text-green-500" />
-            <p className="text-lg font-semibold text-gray-700">Express</p>
+            <p className="text-lg font-semibold text-white">Express</p>
           </div>
           <div className="text-center">
             <FaDatabase className="mx-auto mb-2 text-5xl text-blue-500" />
-            <p className="text-lg font-semibold text-gray-700">MongoDB</p>
+            <p className="text-lg font-semibold text-white">MongoDB</p>
           </div>
+          <div className="text-center">
+            <FaDatabase className="mx-auto mb-2 text-5xl text-orange-500" />
+            <p className="text-lg font-semibold text-white">MySQL</p>
+          </div>
+
         </div>
       </div>
     </section>

@@ -11,19 +11,24 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-            Hi, My Name Is Mohd Nazir Anwer. I am a
-            Frontend Developer. I build beautifull websites with React and
-            Tailwind CSS.
+            Hello, I'm Mohd Nazir Anwer, a Frontend Developer crafting stunning
+            websites using React and Tailwind CSS.
           </p>
           <p className="pb-5">
-            I am proficient in Frontend skills like React.js, Redux, Redux Tool
-            Kit, Tailwind CSS and many more.
+            My expertise lies in Frontend technologies such as React.js, Redux,
+            Redux Tool Kit, and Tailwind CSS, among others.
           </p>
 
-          <p className="pb-5">On Server Side I have hands on experience on Node.js, Express.js, MongoDB, and Mongoose</p>
+          <p className="pb-5">
+            When it comes to Server Side, I've gained practical experience in
+            Node.js, Express.js, MongoDB, and Mongoose.
+          </p>
 
           <p>
-           I always bring a problem-solving mindset, adaptability to new technologies, and a passion for continuous learning to drive meaningful and innovative projects. Let's collaborate and build cutting-edge applications together!
+            I thrive on a problem-solving approach, embrace new technologies
+            readily, and possess an unyielding enthusiasm for ongoing learning,
+            all geared towards steering impactful and pioneering projects. Let's
+            collaborate and build cutting-edge applications together!
           </p>
         </div>
 
