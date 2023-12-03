@@ -82,7 +82,7 @@ h1 {
   
   /* Apply animation to the text */
   .animated-text {
-    animation: slideIn 1.5s ease-in-out forwards;
+    animation: slideIn 2.5s ease-in-out forwards;
   }
   
 
