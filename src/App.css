@@ -53,8 +53,37 @@ nav li a:hover {
 
 /* hero */
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'lato', sans-serif;
     line-height: 1.5 !important;
 }
+
+
+.animated-text {
+    font-size: 4rem; /* Adjust the font size as needed */
+    /* text-align: center; Align the text as desired */
+    font-style: italic;
+  }
+  
+  .animated-text  {
+    color: white; /* Replace 'yourColor' with the desired color code */
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply animation to the text */
+  .animated-text {
+    animation: slideIn 1.5s ease-in-out forwards;
+  }
+  
 
 

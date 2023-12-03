@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between px-5 py-5 bg-red-400 text-white fixed w-full z-10">
-      <a href="/" className="logo text-3xl font-bold italic" >
+      <a href="/" className="logo text-3xl font-bold italic">
         Mohd Nazir Anwer
       </a>
 
@@ -59,13 +59,15 @@ const Header = () => {
             <a href="/#skills">Skills</a>
           </li>
           <li>
-            <a href="/#blog">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="https://drive.google.com/drive/folders/1KQHBgGyA2NEQtnT_o4P54tL_tecOwxYn">Resume</a>
+            <a href="https://drive.google.com/drive/folders/1KQHBgGyA2NEQtnT_o4P54tL_tecOwxYn">
+              Resume
+            </a>
           </li>
         </ul>
       </nav>

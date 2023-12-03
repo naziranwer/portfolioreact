@@ -13,7 +13,10 @@ const Hero = () => {
     <section className="bg-primary px-5 text-white py-32">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
-          <h1 className="text-4xl lg:text-6xl">
+          <h1 
+          // className="text-4xl lg:text-6xl"
+          className="animated-text"
+          >
             Hi, <br />I am <span className="text-accent">N</span>azir Anwer <br />
             Frontend Developer
           </h1>
